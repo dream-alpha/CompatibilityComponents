@@ -1,2 +1,3 @@
-# CompatibilityComponents
-Skin components to make OE2.x compatible with AiO
+# CompatibiliyComponents
+
+This plugin contains skin components that make OE2.x compatible with AiO.

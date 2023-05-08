@@ -1,0 +1,15 @@
+#!/bin/bash
+if [ ! -f /usr/lib/enigma2/python/Components/Converter/ServiceInfo.py.org ]; then
+	cp /usr/lib/enigma2/python/Components/Converter/ServiceInfo.py /usr/lib/enigma2/python/Components/Converter/ServiceInfo.py.org
+fi
+mv /usr/lib/enigma2/python/Components/Converter/ServiceInfo2.py /usr/lib/enigma2/python/Components/Converter/ServiceInfo.py
+
+if [ ! -f /usr/lib/enigma2/python/Components/Converter/EventName.py.org ]; then
+	cp /usr/lib/enigma2/python/Components/Converter/EventName.py /usr/lib/enigma2/python/Components/Converter/EventName.py.org
+fi
+mv /usr/lib/enigma2/python/Components/Converter/EventName2.py /usr/lib/enigma2/python/Components/Converter/EventName.py
+
+echo "Plugin installed successfully."
+echo "Please restart DreamOS now!"
+echo ""
+exit 0
