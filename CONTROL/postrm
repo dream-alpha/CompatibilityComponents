@@ -1,0 +1,11 @@
+#!/bin/sh
+if [ -f /usr/lib/enigma2/python/Components/Converter/ServiceInfo.py.org ]; then
+	mv /usr/lib/enigma2/python/Components/Converter/ServiceInfo.py.org /usr/lib/enigma2/python/Components/Converter/ServiceInfo.py
+fi
+
+if [ -f /usr/lib/enigma2/python/Components/Converter/EventName.py.org ]; then
+	mv /usr/lib/enigma2/python/Components/Converter/EventName.py.org /usr/lib/enigma2/python/Components/Converter/EventName.py
+fi
+
+echo "Plugin removed successfully."
+exit 0

@@ -1,0 +1,5 @@
+Description: CompatibilityComponents
+Maintainer: dream-alpha
+Package: enigma2-plugin-skincomponents-compatibilitycomponents
+Version: 0.3.0
+Architecture: all
